@@ -5,8 +5,8 @@ import os
 from bottle import run, post
 
 
-@post('/hello')
-def hello():
+@post('/schedule')
+def schedule():
     return 'https://docs.google.com/spreadsheets/d/1GD__Yyx8GZ6vsqo7E4pxqoitooOr5LgLomVAL8gBFH8/edit'
 
 

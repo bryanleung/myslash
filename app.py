@@ -7,7 +7,6 @@ from bottle import run, post
 
 @post('/schedule')
 def schedule():
-	print "hi"
     return 'https://docs.google.com/spreadsheets/d/1GD__Yyx8GZ6vsqo7E4pxqoitooOr5LgLomVAL8gBFH8/edit'
 
 

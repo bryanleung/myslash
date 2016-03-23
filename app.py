@@ -7,7 +7,7 @@ from bottle import run, post
 
 @post('/schedule')
 def schedule():
-    return slashCommand.replyPublic('https://docs.google.com/spreadsheets/d/1GD__Yyx8GZ6vsqo7E4pxqoitooOr5LgLomVAL8gBFH8/edit')
+    return 'https://docs.google.com/spreadsheets/d/1GD__Yyx8GZ6vsqo7E4pxqoitooOr5LgLomVAL8gBFH8/edit'
 
 
 if __name__ == '__main__':
